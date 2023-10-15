@@ -1,0 +1,50 @@
+/* src/components/Skills/Skills.css */
+#skills {
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+    margin: 20px 0; /* Adjust margin as needed */
+    text-align: center;
+    font-size: 20px;;
+  }
+  
+  .skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin:20px 0;
+  }
+
+  .h-skills{
+    color:#ffcc00;
+  }
+  
+  .box {
+    background-color: #444;
+    border: 2px solid #ffcc00; /* Yellow border */
+    box-shadow: 0px 0px 10px 0px rgba(255, 204, 0, 0.75); /* Yellow shadow */
+    padding: 30px;
+    border-radius: 8px;
+    width: 300px; /* Set equal width and height for square shape */
+    height: 300px;     
+  }
+  
+  .box h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap into a new row */
+    gap: 10px; /* Spacing between small boxes */
+  }
+  
+  ul li {
+    font-size: 14px;
+    padding: 8px 12px;
+    background-color: #555; /* Small box background color */
+    border-radius: 5px;
+  } 
